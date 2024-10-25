@@ -168,6 +168,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions or suggestions, feel free to contact me:
 - Email: bharatbhushan05@outlook.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourusername)
+- LinkedIn: www.linkedin.com/in/bharat-bhushan-devops
 - GitHub: https://github.com/devops-bharat05
 
