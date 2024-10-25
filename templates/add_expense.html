@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Expense</title>
+</head>
+<body>
+    <h1>Add Expense to Group: {{ group.name }}</h1>
+    <form action="" method="POST">
+        <label for="description">Description:</label>
+        <input type="text" name="description" required>
+        
+        <label for="category">Category:</label>
+        <input type="text" name="category" required>
+        
+        <label for="amount">Amount:</label>
+        <input type="number" name="amount" step="0.01" required>
+        
+        <label for="paid_by">Paid By:</label>
+        <input type="text" name="paid_by" required>
+
+        <label for="split_type">Split Type:</label>
+        <select name="split_type" required>
+            <option value="Equal">Equal</option>
+            <option value="Custom">Custom</option>
+        </select>
+
+        <label for="custom_split">Custom Split (JSON Format):</
